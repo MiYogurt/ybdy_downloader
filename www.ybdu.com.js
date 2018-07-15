@@ -1,6 +1,7 @@
 module.exports = load => {
   const join = load('url-join')
   return {
+    filename: "www.ybdu.com.js",
     regexp: /www\.ybdu\.com/gi,
     opts: {
       charset: 'gbk'
